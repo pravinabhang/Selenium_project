@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGPACKAGEexecution]">
+  <test name="AllClassesFromPackage">
+    <packages>
+      <package name="basics"/>
+    </packages>
+    <classes>
+      <class name="basics.AmazonLoginTestCh"/>
+      <class name="basics.CountryListBox"/>
+      <class name="basics.FacebookLogin"/>
+      <class name="basics.MyAutomationScript"/>
+      <class name="basics.MyCheckBox"/>
+      <class name="basics.MyFirstAutomationScriptCH"/>
+      <class name="basics.MyFirstAutomationScriptEdge"/>
+      <class name="basics.MyFirstAutomationScriptFF"/>
+      <class name="basics.MyFirstAutomationScriptIE"/>
+    </classes>
+  </test> <!-- AllClassesFromPackage -->
+  <test name="AllClassesFromPackage(failed)">
+    <classes>
+      <class name="basics.FacebookLogin">
+        <methods>
+          <include name="myTestMethod"/>
+        </methods>
+      </class> <!-- basics.FacebookLogin -->
+    </classes>
+  </test> <!-- AllClassesFromPackage(failed) -->
+</suite> <!-- Failed suite [TestNGPACKAGEexecution] -->

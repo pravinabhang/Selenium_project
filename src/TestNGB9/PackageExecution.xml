@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNGPACKAGEexecution"  verbose="1">
+	  
+	  <test name="AllClassesFromPackage" preserve-order="true" >
+		
+	    <packages>
+      		<package name="basics" />
+      		<!-- <package name="advanced" />  commented part -->
+      		
+      		
+      	</packages>
+	   
+	  </test>
+  
+</suite>

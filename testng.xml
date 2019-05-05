@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Complete_Selenium_Suite">
+  <test name="All_InOne_Test">
+    <classes>
+      <class name="basics.myassignments.ListItemMultipleSelection"/>
+      <class name="basics.MyCheckBox"/>
+      <class name="advanced.MyFileDownloadChrome"/>
+      <class name="advanced.myassgnment.OpenNewTabBrowser"/>
+      <class name="advanced.myassgnment.MyDynamicTable"/>
+      <class name="basics.MyFirstAutomationScriptCH"/>
+      <class name="advanced.DataBaseConnectionMySQL"/>
+      <class name="basics.CountryListBox"/>
+      <class name="basics.select.GetAllSelectedOptions"/>
+      <class name="basics.select.SelectByValue"/>
+      <class name="advanced.OpenLinkinNewTab"/>
+      <class name="basics.MyFirstAutomationScriptFF"/>
+      <class name="basics.select.MyFormScript"/>
+      <class name="advanced.MyDragAndDrop"/>
+      <class name="advanced.FileUpload"/>
+      <class name="advanced.MyIframe"/>
+      <class name="basics.select.SelectByIndex"/>
+      <class name="advanced.ExplicitWait"/>
+      <class name="basics.alert.AlertBoxTest"/>
+      <class name="keyworddriven.KeywordDrivenScript1"/>
+      <class name="basics.FacebookLogin"/>
+      <class name="advanced.MyScreenShot"/>
+      <class name="advanced.MyFileDownload"/>
+      <class name="datadriven.MyDataDrivenScript1"/>
+      <class name="advanced.FacebookTest"/>
+      <class name="advanced.ImplicitWait"/>
+      <class name="advanced.DataBaseConnectionOracle"/>
+      <class name="advanced.myassgnment.TakeScreenShotElementNotFound"/>
+      <class name="advanced.BrowserForwordBackRefresh"/>
+      <class name="basics.MyAutomationScript"/>
+      <class name="basics.AmazonLoginTestCh"/>
+      <class name="basics.MyFirstAutomationScriptIE"/>
+      <class name="datadriven.MyDataDrivenScript"/>
+      <class name="basics.myassignments.MoveAllListItemsToRights"/>
+      <class name="advanced.myassgnment.MyDownloadedFile"/>
+      <class name="basics.MyFirstAutomationScriptEdge"/>
+    </classes>
+  </test> <!-- All_InOne_Test -->
+</suite> <!-- Complete_Selenium_Suite -->

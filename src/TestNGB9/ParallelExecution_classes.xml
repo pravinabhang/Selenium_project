@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="TestNG Parallel" parallel = "classes" thread-count="2" verbose="1">
+	  
+	  <test name="TestforParallel" preserve-order="true" >
+		<classes>
+	      <class name="TestNGB9.ParallelClassA" />
+	      <class name="TestNGB9.ParallelClassB" />
+	      <class name="basics.MyFirstAutomationScriptEdge" />
+	      <class name="basics.MyFirstAutomationScriptFF" />
+	            
+	      
+	    </classes>
+	  </test>
+</suite>

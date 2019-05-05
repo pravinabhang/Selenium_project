@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  
+  <test verbose="2" name="Feature1" preserve-order="true" >
+    <classes>
+      <class name="advanced.MyDragAndDrop"/>
+      <class name="basic.B15MyBasicForm"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+  <test verbose="2" name="feature2" preserve-order="true" >
+    <classes>
+      <class name="advanced.MyActionTest"/>
+      <class name="basic.B15MyFirstScriptchrome"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  
+</suite> <!-- Default suite -->

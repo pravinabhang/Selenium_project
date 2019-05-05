@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestNG Parallel]" parallel="classes">
+  <test name="TestforParallel">
+    <classes>
+      <class name="TestNGB9.ParallelClassA"/>
+      <class name="TestNGB9.ParallelClassB"/>
+      <class name="basics.MyFirstAutomationScriptEdge"/>
+      <class name="basics.MyFirstAutomationScriptFF"/>
+    </classes>
+  </test> <!-- TestforParallel -->
+  <test name="TestforParallel(failed)" parallel="classes">
+    <classes>
+      <class name="TestNGB9.ParallelClassA">
+        <methods>
+          <include name="myTest1"/>
+        </methods>
+      </class> <!-- TestNGB9.ParallelClassA -->
+    </classes>
+  </test> <!-- TestforParallel(failed) -->
+</suite> <!-- Failed suite [TestNG Parallel] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [SeleniumGridExample]" parallel="methods">
+  <parameter name="browser" value="firefox"/>
+  <test name="myTest1">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="grid.GridTest1"/>
+    </classes>
+  </test> <!-- myTest1 -->
+</suite> <!-- Failed suite [SeleniumGridExample] -->

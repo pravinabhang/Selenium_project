@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Module">
+    <groups>
+      <run>
+        <include name="advanced"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="advanced"/>
+    </packages>
+    <classes>
+      <class name="advanced.B17TableUtil"/>
+      <class name="advanced.BrowserForwordBackRefresh"/>
+      <class name="advanced.DataBaseConnectionMySQL"/>
+      <class name="advanced.DataBaseConnectionOracle"/>
+      <class name="advanced.ExplicitWait"/>
+      <class name="advanced.FacebookTest"/>
+      <class name="advanced.FileUpload"/>
+      <class name="advanced.ImplicitWait"/>
+      <class name="advanced.MyDragAndDrop"/>
+      <class name="advanced.MyFileDownload"/>
+      <class name="advanced.MyFileDownloadChrome"/>
+      <class name="advanced.MyIframe"/>
+      <class name="advanced.MyScreenShot"/>
+      <class name="advanced.OpenLinkinNewTab"/>
+    </classes>
+  </test> <!-- Module -->
+</suite> <!-- Failed suite [Suite1] -->
